@@ -1,3 +1,4 @@
+baseURL = "https://mh9.codes/"
 languageCode = "en-us"
 title = "mh9 dev"
 theme = "cactus-plus"
