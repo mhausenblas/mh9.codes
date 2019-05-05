@@ -1,1 +1,1 @@
-My name is Michael Hausenblas and since that's such an awfully long name, I tend to use a shorter version of it: MH9. Now, I'm coding, mainly Go and shell scripts.
+My name is Michael Hausenblas and since that's such an awfully long name, I tend to use a shorter version of it: MH9. Now, as part of my job but also in my spare time I'm coding, mainly Go and shell scripts. Hence the site's name: `mh9 codes`.
