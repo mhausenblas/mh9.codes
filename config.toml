@@ -2,10 +2,15 @@ baseURL = "https://mh9.codes/"
 languageCode = "en-us"
 title = "mh9 codes"
 theme = "cactus-plus"
-disqusShortname = "mh9codes"
-enableDisqus = true
 
 [params]
-github_username = "mhausenblas"
-twitter_username = "mhausenblas"
-iconFont = "mono-social"
+	author = "Michael Hausenblas"
+    description = "A site dedicated to sharing good practices around cloud native coding and operations"
+    
+    disqusShortname = "mh9codes"
+    enableDisqus = true
+    
+    enableRSS = true
+    twitter = "mhausenblas"
+    github = "mhausenblas"
+    iconFont = "mono-social"
