@@ -12,8 +12,9 @@ theme = "cactus-plus"
     
     enableRSS = true
 
-[social]
     iconFont = "mono-social"
     socialIconStyle = "rounded"
+
+[social]
     twitter = "https://twitter.com/mhausenblas"
     github = "https://github.com/mhausenblas"
