@@ -11,11 +11,9 @@ theme = "cactus-plus"
     enableDisqus = true
     
     enableRSS = true
-    twitter = "mhausenblas"
-    github = "mhausenblas"
-    iconFont = "mono-social"
-    socialIconStyle = "rounded"
 
 [social]
-    twitter-rounded = "https://twitter.com/mhausenblas"
-    github-rounded = "https://github.com/mhausenblas"
+    iconFont = "mono-social"
+    socialIconStyle = "rounded"
+    twitter = "https://twitter.com/mhausenblas"
+    github = "https://github.com/mhausenblas"
