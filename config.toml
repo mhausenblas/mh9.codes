@@ -15,3 +15,7 @@ theme = "cactus-plus"
     github = "mhausenblas"
     iconFont = "mono-social"
     socialIconStyle = "rounded"
+
+[social]
+    twitter-rounded = "https://twitter.com/mhausenblas"
+    github-rounded = "https://github.com/mhausenblas"
