@@ -28,7 +28,7 @@ displayMode = "dark"
   url = "https://twitter.com/mhausenblas"
 
   [[params.socialIcons]]
-  icon = "fab fa-envelope"
+  icon = "fa-envelope"
   title = "e-mail"
   url = "mailto:mh9@o11y.engineering"
 
