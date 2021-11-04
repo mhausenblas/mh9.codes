@@ -15,6 +15,7 @@ author = "Michael Hausenblas"
 description = "Sharing good practices around cloud native development and operations"
 copyright = "2019-2021"
 profilePicture = "images/mhausenblas.png"
+displayMode = "dark"
 
   [[params.socialIcons]]
   icon = "fas fa-github"
