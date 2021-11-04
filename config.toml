@@ -46,6 +46,12 @@ displayMode = "dark"
   url = "/posts/"
 
   [[menu.main]]
-  name = "About"
+  name = "Tags"
   weight = 300
+  identifier = "tags"
+  url = "/tags/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 400
   url = "/about"
