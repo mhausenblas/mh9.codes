@@ -18,17 +18,17 @@ profilePicture = "images/mhausenblas.png"
 displayMode = "dark"
 
   [[params.socialIcons]]
-  icon = "fas fa-github"
+  icon = "fa-github"
   title = "GitHub"
   url = "https://github.com/mhausenblas"
 
   [[params.socialIcons]]
-  icon = "fas fa-twitter"
+  icon = "fa-twitter"
   title = "Tiwtter"
   url = "https://twitter.com/mhausenblas"
 
   [[params.socialIcons]]
-  icon = "fas fa-envelope"
+  icon = "fa-envelope"
   title = "e-mail"
   url = "mailto:mh9@o11y.engineering"
 
