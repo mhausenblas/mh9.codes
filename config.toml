@@ -1,20 +1,50 @@
 baseURL = "https://mh9.codes/"
-languageCode = "en-us"
+languageCode = "en"
 title = "mh9 codes"
-theme = "cactus-plus"
+theme = "anatole"
+summarylength = 80
+enableEmoji = true
+enableRobotsTXT = true
+disqusShortname = "mh9codes"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
 
 [params]
-	author = "Michael Hausenblas"
-    description = "A site dedicated to sharing good practices around cloud native coding and operations"
-    
-    disqusShortname = "mh9codes"
-    enableDisqus = true
-    
-    enableRSS = true
+author = "Michael Hausenblas"
+description = "Sharing good practices around cloud native development and operations"
+copyright = "2019-2021"
+profilePicture = "images/mhausenblas.png"
 
-    iconFont = "mono-social"
-    socialIconStyle = "rounded"
+  [[params.socialIcons]]
+  icon = "fas fa-github"
+  title = "GitHub"
+  url = "https://github.com/mhausenblas"
 
-[social]
-    twitter = "https://twitter.com/mhausenblas"
-    github = "https://github.com/mhausenblas"
+  [[params.socialIcons]]
+  icon = "fas fa-twitter"
+  title = "Tiwtter"
+  url = "https://twitter.com/mhausenblas"
+
+  [[params.socialIcons]]
+  icon = "fas fa-envelope"
+  title = "e-mail"
+  url = "mailto:mh9@o11y.engineering"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Archive"
+  weight = 200
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  url = "/about"
