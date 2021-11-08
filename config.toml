@@ -16,6 +16,9 @@ description = "Sharing good practices around cloud native development and operat
 copyright = "2019-2021"
 profilePicture = "images/mhausenblas.png"
 displayMode = "dark"
+disableThemeSwitcher = true
+customCss = ["css/dracula-syntax.css"]
+
 
   [[params.socialIcons]]
   icon = "fab fa-github"
@@ -55,7 +58,3 @@ displayMode = "dark"
   name = "About"
   weight = 400
   url = "/about"
-
-[markup]
-  [markup.highlight]
-    style = 'native'
