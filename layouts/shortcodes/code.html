@@ -1,3 +1,6 @@
-{{ $file := .Get "file" | readFile }}
+{{ $filePath := .Get "file" }}
+{{ $fileName := path.Split $filePath  }}
+{{ $file := readFile ( printf "static/%s" $filePath ) }}
 {{ $lang := .Get "language" }}
 {{ (print "```" $lang "\n" $file "\n```") | safeHTML }}
+{{ (print "_Download [" $fileName.File "](" ( absURL $filePath ) ")._" ) }}
