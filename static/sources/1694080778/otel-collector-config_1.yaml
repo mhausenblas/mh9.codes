@@ -1,0 +1,22 @@
+receivers:
+  otlp:
+    protocols:
+      http:
+        endpoint: 0.0.0.0:43180
+
+exporters:
+  otlp:
+    endpoint: localhost:4317
+    tls:
+      insecure: true
+
+service:
+  telemetry:
+    metrics:
+      address: ":8989"
+    logs:
+      level: debug
+  pipelines:
+    traces:
+      receivers: [otlp]
+      exporters: [otlp]
